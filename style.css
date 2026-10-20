@@ -186,3 +186,6 @@ footer .brand { color: #fff; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* keep the official "TU/e" spelling inside uppercase labels */
+.nocaps { text-transform: none; }
