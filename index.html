@@ -3,79 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dutch Soft Robotics Symposium 2027 — Coming Soon</title>
-<meta name="description" content="The Dutch Soft Robotics Symposium 2027 (DSRS2027). Coming soon — date and venue to be announced.">
+<title>Dutch Soft Robotics Symposium 2027</title>
+<meta name="description" content="Dutch Soft Robotics Symposium 2027 (DSRS 2027). Coming soon: date and venue to be announced.">
 <meta property="og:title" content="Dutch Soft Robotics Symposium 2027">
 <meta property="og:description" content="Coming soon. Date and venue to be announced.">
 <meta property="og:image" content="assets/logo.png">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- soft, slowly "inflating" background blobs -->
-<div class="blobs" aria-hidden="true">
-  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
-</div>
-
-<header class="topbar">
-  <span class="tag">DSRS<b>2027</b></span>
-  <span class="status"><i class="pulse"></i>Website under construction</span>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">DSRS<span>2027</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#topics">Topics</a>
+      <a href="#info">Key info</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <section class="hero">
-    <img class="logo" src="assets/logo.png" alt="Dutch Soft Robotics Symposium 2027 logo" width="837" height="390">
-    <p class="kicker">The Netherlands · 2027</p>
-    <h1>Something soft<br>is <span class="inflate">inflating</span>.</h1>
-    <p class="lead">
-      A symposium bringing together the Dutch soft robotics community — researchers, students,
-      and industry — to share work on compliant bodies, smart materials, and robots that bend
-      instead of break.
-    </p>
-
-    <!-- pneumatic actuator "progress bar" -->
-    <div class="actuator" aria-hidden="true">
-      <div class="chambers">
-        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+<main id="top">
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow"><span class="dot"></span> Coming soon · The Netherlands · 2027</p>
+      <h1>Dutch<br><em>Soft Robotics</em><br>Symposium</h1>
+      <p class="lead">A national meeting for everyone building robots that bend, stretch,
+        squeeze and adapt, from materials to machines.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#info">Key information</a>
+        <a class="btn" href="#topics">Explore topics</a>
       </div>
     </div>
-    <p class="mono small">Date, venue and programme to be announced.</p>
+    <div class="hero-logo">
+      <img src="assets/logo.png" alt="Dutch Soft Robotics Symposium 2027 logo" width="837" height="390">
+      <span class="stamp">Save<br>the date<br><b>soon</b></span>
+    </div>
   </section>
 
-  <section class="cards">
-    <article class="card">
-      <span class="num">01</span>
-      <h2>Talks</h2>
-      <p>Keynotes and contributed talks from across the Dutch and international soft robotics landscape.</p>
-    </article>
-    <article class="card">
-      <span class="num">02</span>
-      <h2>Posters &amp; demos</h2>
-      <p>Bring your squishy prototypes. Hands-on demos and a poster session to connect with the community.</p>
-    </article>
-    <article class="card">
-      <span class="num">03</span>
-      <h2>Community</h2>
-      <p>An informal setting to meet peers, start collaborations, and grow soft robotics in the Netherlands.</p>
-    </article>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Coming soon</span><i>●</i><span>DSRS 2027</span><i>●</i><span>Soft actuators</span><i>●</i><span>Smart materials</span><i>●</i><span>Embodied intelligence</span><i>●</i>
+      <span>Coming soon</span><i>●</i><span>DSRS 2027</span><i>●</i><span>Soft actuators</span><i>●</i><span>Smart materials</span><i>●</i><span>Embodied intelligence</span><i>●</i>
+    </div>
+  </div>
+
+  <section id="about" class="section wrap two-col">
+    <h2 class="label">01 / About</h2>
+    <div>
+      <p class="big">The Netherlands has one of the most active soft robotics communities in the world.
+        DSRS 2027 brings it together in one room.</p>
+      <p>Expect keynote talks, contributed presentations, posters and live demos from
+        universities, research institutes and industry. It's an informal setting for sharing
+        ideas, meeting peers and starting new collaborations. Researchers, students and
+        anyone curious about soft robots are welcome.</p>
+    </div>
   </section>
 
-  <section class="topics">
-    <h2 class="mono">Topics we're excited about</h2>
-    <ul>
-      <li>Soft actuators</li><li>Smart &amp; responsive materials</li><li>Bio-inspired design</li>
-      <li>Embodied intelligence</li><li>Fabrication &amp; 3D printing</li><li>Modelling &amp; control</li>
-      <li>Sensing &amp; e-skins</li><li>Medical &amp; wearable robotics</li><li>Physical computation</li>
-    </ul>
+  <section id="topics" class="section wrap two-col">
+    <h2 class="label">02 / Topics</h2>
+    <ol class="topics">
+      <li>Soft actuators &amp; artificial muscles</li>
+      <li>Smart &amp; responsive materials</li>
+      <li>Bio-inspired design</li>
+      <li>Embodied &amp; physical intelligence</li>
+      <li>Fabrication &amp; 3D printing</li>
+      <li>Modelling, simulation &amp; control</li>
+      <li>Soft sensing &amp; e-skins</li>
+      <li>Medical, wearable &amp; assistive robotics</li>
+    </ol>
+  </section>
+
+  <section id="info" class="section wrap two-col">
+    <h2 class="label">03 / Key info</h2>
+    <dl class="info">
+      <div><dt>Date</dt><dd>2027 · to be announced</dd></div>
+      <div><dt>Location</dt><dd>The Netherlands · venue to be announced</dd></div>
+      <div><dt>Format</dt><dd>Keynotes, talks, posters &amp; demos</dd></div>
+      <div><dt>Registration</dt><dd>Opens soon</dd></div>
+    </dl>
   </section>
 </main>
 
 <footer>
-  <p class="mono">Dutch Soft Robotics Symposium 2027 · More information soon</p>
+  <div class="wrap foot">
+    <span class="brand">DSRS<span>2027</span></span>
+    <span>Dutch Soft Robotics Symposium · More information coming soon</span>
+  </div>
 </footer>
 
 </body>
